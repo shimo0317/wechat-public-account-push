@@ -48,18 +48,7 @@ const USER_CONFIG = {
       ],
     },
   ],
-export const getConstellation = (date) => {
-  const year = selfDayjs().year()
-  const constellationCn = ['白羊', '金牛', '双子', '巨蟹', '狮子', '处女', '天秤', '天蝎', '射手', '摩羯', '水瓶', '双鱼']
-  const constellationEn = ['aries', 'taurus', 'gemini', 'cancer', 'leo', 'virgo', 'libra', 'scorpio', 'sagittarius', 'capricorn', 'aquarius', 'pisces']
-  const [month, day] = date.split('-').map(Number)
-  const solar = Solar.fromYmd(year, month, day)
-  const cn = solar.getXingZuo()
-  return {
-    cn,
-    en: constellationEn[constellationCn.indexOf(cn)],
-  }
-}
+
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
