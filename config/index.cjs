@@ -14,7 +14,7 @@ const USER_CONFIG = {
   APP_SECRET: 'ab67721c32519b1942c27f0ca1e9e57a',
 
   PROVINCE: '浙江',
-  CITY: '丽水',
+  CITY: '龙泉',
 
   USERS: [
     {
@@ -23,13 +23,13 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'olZu46DoCO6KXoZll0jIjJGpkip4',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'raCTjrcpT417oCpLFGqalKp-aXuBItY2YQMCMxOEtiQ',
+      useTemplateId: 'O4ryO-AryCB7wgYtxljVaD9Z-QBOOrPFWtfr8HiMneg',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '01-27',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '你', year: '2001', date: '01-04',
+          type: '生日', name: '我', year: '2000', date: '03-17',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
