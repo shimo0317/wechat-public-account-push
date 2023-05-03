@@ -14,12 +14,12 @@ const USER_CONFIG = {
   APP_SECRET: 'ab67721c32519b1942c27f0ca1e9e57a',
 
   PROVINCE: '浙江',
-  CITY: '龙泉',
+  CITY: '丽水',
 
   USERS: [
     {
       // 想要发送的人的名字
-      name: '宝贝',
+      name: '小楚',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'olZu46DoCO6KXoZll0jIjJGpkip4',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
