@@ -14,7 +14,7 @@ const USER_CONFIG = {
   APP_SECRET: 'ab67721c32519b1942c27f0ca1e9e57a',
 
   PROVINCE: '浙江',
-  CITY: '龙泉市',
+  CITY: '丽水',
 
   USERS: [
     {
@@ -23,7 +23,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'olZu46DoCO6KXoZll0jIjJGpkip4',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '2knv-GDNqYdwotmuNXnZdKWo5dnFVsBd9wBYDoCV5H8',
+      useTemplateId: 'raCTjrcpT417oCpLFGqalKp-aXuBItY2YQMCMxOEtiQ',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '01-27',
       festivals: [
@@ -42,7 +42,7 @@ const USER_CONFIG = {
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2022-09-08' },
+        { keyword: 'love_day', date: '2023-02-19' },
         // 结婚纪念日
         { keyword: 'marry_day', date: '2022-09-09' },
       ],
