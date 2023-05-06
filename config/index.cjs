@@ -21,7 +21,7 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '小楚',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'olZu46DoCO6KXoZll0jIjJGpkip4',
+      id: 'olZu46Hf_2KVm40uyyXIK5mv68-E',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: '-ttM6cciIKixpuZ3n6PZYHxVFMnnJLXDhDMUMYmnQds',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
